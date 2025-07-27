@@ -1,44 +1,39 @@
-# Task 03: Cats vs Dogs Image Classification using SVM
+# 🐱🐶 Task 03: Cat vs Dog Image Classification – SVM Model
 
 ## 📌 Objective
-To implement a **Support Vector Machine (SVM)** classifier that can differentiate between images of **cats and dogs** using image features.
 
-## 🧠 Dataset
-The **Dogs vs Cats Dataset** from Kaggle includes thousands of labeled images:
-- `cat.0.jpg`, `cat.1.jpg`, ...
-- `dog.0.jpg`, `dog.1.jpg`, ...
+Classify images as either **Cat** or **Dog** using the **Support Vector Machine (SVM)** algorithm.
 
-For performance reasons, a subset of the data was used for training and evaluation.
+## 🧠 Techniques Used
 
-## 🧪 Preprocessing
-Images were:
-- Resized to a fixed dimension (e.g., 64x64)
-- Converted to grayscale or flattened RGB arrays
-- Normalized for SVM input
+- Support Vector Machine (SVM)
+- Image Preprocessing (Resizing, Flattening, Normalization)
+- Data Splitting (Train/Test)
+- Model Evaluation (Accuracy Score, Confusion Matrix)
 
-## ⚙️ Technologies Used
-- Python
-- OpenCV / PIL
-- NumPy
-- Scikit-learn
-- Jupyter Notebook
+## 🔧 Skills Practiced
 
-## 🎯 Output
-- Binary classification accuracy
-- Confusion matrix
-- Visual inspection of predictions
+- Image Classification
+- Machine Learning with Scikit-learn
+- Evaluation Metrics for Binary Classification
 
-## 📁 Files
-- `svm_image_classifier.ipynb`: Full implementation
-- `dataset/`: Sample images for testing
-- `image_preprocessing.py`: Helper functions for loading and transforming images
+## 🗂️ Dataset
 
-## 🏢 Internship
-This task was completed as part of the **Machine Learning Internship** at **Skillscraft Technology** in 2025.
+The dataset contains labeled images of cats and dogs (preprocessed version or raw images).
 
----
+## 📁 Files in Repo
 
-📧 Contact:  
+- `cat_dog_svm.ipynb` – Jupyter notebook for training the model
+- `images/` – Folder containing sample image data
+- `README.md` – You're reading it 🙂
+
+## 👨‍💻 Author
+
 **Amir Bux Chandio**  
-Intern - Skillscraft Technology  
-[amirbuxchandio35@gmail.com](mailto:amirbuxchandio35@gmail.com)
+🎓 Data Science Student  
+📧 amirbuxchandio35@gmail.com  
+🔗 https://www.linkedin.com/in/amir-bux-chandio-860604261
+
+## 🙌 Internship
+
+This project was completed as part of my **Machine Learning Internship at SkillCraft Technology**.
